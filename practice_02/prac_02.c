@@ -161,24 +161,24 @@
 //     return 0;
 // }
 
-struct Stu
-{
-    char name[20];
-    int age;
-    char sex[10];
-    char tele[12];
-};
+// struct Stu
+// {
+//     char name[20];
+//     int age;
+//     char sex[10];
+//     char tele[12];
+// };
 
-void print(struct Stu* ps)
-{
-    printf("%s %d %s %s\n", (*ps).name, (*ps).age, (*ps).sex, (*ps).tele);
-    printf("%s %d %s %s\n", ps->name, ps->age, ps->sex, ps->tele);
-}
+// void print(struct Stu* ps)
+// {
+//     printf("%s %d %s %s\n", (*ps).name, (*ps).age, (*ps).sex, (*ps).tele);
+//     printf("%s %d %s %s\n", ps->name, ps->age, ps->sex, ps->tele);
+// }
 
-int main()
-{
-    struct Stu s = {"zhangsan", 20, "nan", "13525348793"};
-    printf("%s %d %s %s\n", s.name, s.age, s.sex, s.tele);
-    print(&s);
-    return 0;
-}
+// int main()
+// {
+//     struct Stu s = {"zhangsan", 20, "nan", "13525348793"};
+//     printf("%s %d %s %s\n", s.name, s.age, s.sex, s.tele);
+//     print(&s);
+//     return 0;
+// }
